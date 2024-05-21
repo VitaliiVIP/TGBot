@@ -1,4 +1,3 @@
-import os
 import telebot
 from telebot import types
 from googletrans import Translator, LANGUAGES
@@ -6,6 +5,7 @@ from googletrans import Translator, LANGUAGES
 BOT_TOKEN = '7021310891:AAFCULpbm3uN39sXW5km20X-91T4ycOf3kg'
 bot = telebot.TeleBot(BOT_TOKEN)
 translator = Translator()
+#List of the facts, which BOT will send to user every day
 facts = [
     "Fact 1: The most widely spoken language in the world is English.",
     "Fact 2: There are over 7,000 languages spoken in the world today.",
